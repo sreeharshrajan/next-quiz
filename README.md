@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Quiz App
 
-## Getting Started
+This is a simple quiz application built using Tailwind CSS, Next.js, RapidAPI, and local storage.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Fetches quiz questions from a quiz API using RapidAPI.
+- Allows users to progress through the quiz, storing their progress locally.
+- Styling done with Tailwind CSS.
+- Built with Next.js for server-side rendering and client-side navigation.
+
+## Setup
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/your-username/quiz-app.git
+   ```
+
+2. Install dependencies:
+
+```
+cd quiz-app
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Set up RapidAPI:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Sign up for RapidAPI and find a quiz API to use.
+- Replace `YOUR_RAPIDAPI_ENDPOINT` in the Quiz.js component with your actual RapidAPI endpoint.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. Start the development server:
 
-## Learn More
+```
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+5. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open with your browser to see the result.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
+- Tailwind CSS
+- Next.js
+- RapidAPI
+- JavaScript
+- HTML
+- CSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Feel free to customize and improve upon this template to better fit your project's needs.
