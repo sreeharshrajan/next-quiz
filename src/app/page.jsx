@@ -10,9 +10,9 @@ export default function Home() {
     <>
       <Header />
       <Hero />
-      <Stats />
+      {/* <Stats />
       <Results />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
